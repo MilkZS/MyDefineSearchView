@@ -1,0 +1,2 @@
+# MyDefineSearchView
+[demo]search

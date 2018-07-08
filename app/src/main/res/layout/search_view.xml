@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/back_button"
+        android:layout_width="@dimen/width_search_view_back_button"
+        android:layout_height="@dimen/height_search_fragment"
+        android:background="@drawable/back"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginStart="10dp" />
+
+    <FrameLayout
+        android:layout_height="@dimen/height_search_fragment"
+        android:layout_width="@dimen/width_search_view_edit_view"
+        android:background="@drawable/search3_1">
+    <EditText
+        android:layout_margin="3dp"
+        android:paddingLeft="13dp"
+        android:inputType="text"
+        android:background="@null"
+        android:layout_width="@dimen/width_search_view_edit_view"
+        android:layout_height="@dimen/height_search_view"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:paddingStart="13dp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:src="@drawable/delete"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="@dimen/width_search_view_delete"
+            android:layout_height="@dimen/height_search_view_delete"
+            android:layout_marginEnd="13dp" />
+
+    </FrameLayout>
+    <Button
+        android:id="@+id/search_button"
+        android:paddingLeft="5dp"
+        android:background="@drawable/search_bt"
+        android:layout_width="@dimen/width_search_view_search_button"
+        android:layout_height="@dimen/height_search_fragment"/>
+</LinearLayout>

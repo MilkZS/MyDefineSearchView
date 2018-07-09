@@ -15,7 +15,7 @@
             android:layout_height="@dimen/height_search_fragment"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:background="@drawable/back"
+            android:background="@drawable/left_flower"
             tools:layout_editor_absoluteX="6dp"
             tools:layout_editor_absoluteY="0dp" />
 

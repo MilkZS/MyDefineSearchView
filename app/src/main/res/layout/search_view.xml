@@ -54,7 +54,7 @@
             android:id="@+id/search_button"
             android:layout_width="@dimen/width_search_view_search_button"
             android:layout_height="@dimen/height_search_fragment"
-            android:background="@drawable/search_bt"
+            android:background="@drawable/search5"
             android:paddingLeft="5dp" />
     </LinearLayout>
 
